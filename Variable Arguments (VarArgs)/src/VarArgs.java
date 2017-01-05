@@ -13,6 +13,7 @@ public class VarArgs {
     }
 
     public static int method1(int...numbers){
+        //prints how many integers were introduced
         int total=0;
         for(int x:numbers){
             total++;
@@ -21,6 +22,7 @@ public class VarArgs {
     }
 
     public static void method2(int[] numbers, String...names){
+        //prints the integers introduced, followed by the Strings introduced
         for (int x : numbers) {
             System.out.print(x+" ");
         }
