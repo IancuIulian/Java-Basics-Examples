@@ -24,16 +24,16 @@ public class Array_vs_ArrayList {
         myArray[2] = 5;       //replace an element
                               //no inbuilt mechanism for removing elements
         myLength = myArray.length;  //get it's size (length)
-        myValue = myArray[5]; //get an element
+        myValue = myArray[5];       //get an element
 
 //      ArrayList:
         ArrayList<Integer> myArrayList = new ArrayList<>();   //declaration
         //ArrayList<Type> myArrayList = new ArrayList<Type>(size);
         //'Integer' instead of 'int' because ArrayList does not support Primitive types, it supports Generic types
-        myArrayList.add(1);                // adds '1' to the end of the list
-        myArrayList.add(0,2); // add(index i, element e);  shifts the elements automatically
-        myArrayList.set(1,5);             // replaces the element at index '1' with the value '5'
-        myArrayList.remove(1);      // removes the element stored at index 'i' BUT returns that element (or object)
+        myArrayList.add(1);      // adds '1' to the end of the list
+        myArrayList.add(0,2);    // add(index i, element e);  shifts the elements automatically
+        myArrayList.set(1,5);    // replaces the element at index '1' with the value '5'
+        myArrayList.remove(1);   // removes the element stored at index 'i' BUT returns that element (or object)
         myLength = myArrayList.size();   // get it's size (length)
         myValue = myArrayList.get(0);   // get an element
 
