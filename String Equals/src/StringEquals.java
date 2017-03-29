@@ -18,3 +18,14 @@ public class StringEquals {
 
     }
 }
+
+/*Output:
+
+s1 == s2       \\true
+s1 == s4       \\false
+s1.equals(s4)  \\true
+
+s1.equals(s5)  \\false
+s1.equalsIgnoreCase(s5)  \\true
+
+*/
