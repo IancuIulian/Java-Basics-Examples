@@ -9,7 +9,7 @@ public class ArraysIntro {
         // int[] n = {0,1,2,3,4,5}    - another way of declaring
         printArray("numbers: ", numbers, size);
 
-        int[] scores = numbers; // array "scores" points to the same addres as "numbers", that is in the Heap
+        int[] scores = numbers; // array "scores" points to the same address as "numbers", that is in the Heap
         printArray("scores:  ", scores, size);
 
         scores[3] = 9;  // when we change the value of "scores", the value of "numbers" also changes
